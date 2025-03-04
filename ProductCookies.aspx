@@ -8,7 +8,7 @@
     <title></title>
 </head>
 <body>
-    <form id="txtDescription" runat="server">
+    <form id="form" runat="server">
         <asp:Label ID="Label1" runat="server" Font-Bold="true" BorderColor="Black" Text="Enter Product"></asp:Label>
         <p>
             <asp:Label ID="Label2" runat="server" Text="Category"></asp:Label>
@@ -19,7 +19,7 @@
         </p>
         <asp:Label ID="Label3" runat="server" Text="Supplier"></asp:Label>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:DropDownList ID="ddlSuplier" runat="server">
+        <asp:DropDownList ID="ddlSupplier" runat="server">
              <asp:ListItem Value="" Selected="True" Enabled="true"> Nike ></asp:ListItem>
         </asp:DropDownList>
         <p>
@@ -30,8 +30,8 @@
         <p aria-orientation="horizontal">
             <asp:Label ID="Label5" runat="server" Text="Description"></asp:Label>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <textarea id="TextArea1" cols="20" name="S1" rows="2"></textarea>
-        </p>
+            <asp:TextBox ID="txtDescription" runat="server" Height="41px" Width="136px"></asp:TextBox>
+&nbsp;</p>
         <asp:Label ID="Label6" runat="server" Text="Image"></asp:Label>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="txtImage" runat="server"></asp:TextBox>

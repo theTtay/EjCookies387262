@@ -18,16 +18,16 @@ namespace Cookies3874262
         {
 			//Save cookies
 			Response.Cookies["ddlCategory"].Value = ddlCategory.SelectedValue;
-			Response.Cookies["ddlSupplier"].Value = ddlSuplier.SelectedValue;
-			Response.Cookies["strProduct"].Value = txtProduct.Text; 
-			Response.Cookies["strDescription"].Value = txtDescription.InnerText;
+			Response.Cookies["ddlSupplier"].Value = ddlSupplier.SelectedValue;
+			Response.Cookies["strProduct"].Value = txtProduct.Text;
+			Response.Cookies["strDescription"].Value = txtDescription.Text;
 			Response.Cookies["strImage"].Value = txtImage.Text;
 			Response.Cookies["decPrice"].Value = txtPrice.Text;
 			Response.Cookies["bytNumberInStock"].Value = txtNumberInStock.Text;
 			Response.Cookies["bytNumberOnOrder"].Value = txtNumberOnOrder.Text;
 			Response.Cookies["bytReorderLevel"].Value = txtReorderLevel.Text;
 			//Go to the confirmation page
-			Response.Redirect("ProductConfirmCookies.aspx");
+			Response.Redirect("ConfirmProduct.aspx");
 		}
     }
 }

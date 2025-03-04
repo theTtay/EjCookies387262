@@ -15,13 +15,13 @@ namespace Cookies3874262
 	{
 
 		/// <summary>
-		/// Control txtDescription.
+		/// Control form.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.HtmlControls.HtmlForm txtDescription;
+		protected global::System.Web.UI.HtmlControls.HtmlForm form;
 
 		/// <summary>
 		/// Control Label1.
@@ -60,13 +60,13 @@ namespace Cookies3874262
 		protected global::System.Web.UI.WebControls.Label Label3;
 
 		/// <summary>
-		/// Control ddlSuplier.
+		/// Control ddlSupplier.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.DropDownList ddlSuplier;
+		protected global::System.Web.UI.WebControls.DropDownList ddlSupplier;
 
 		/// <summary>
 		/// Control Label4.
@@ -94,6 +94,15 @@ namespace Cookies3874262
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
 		protected global::System.Web.UI.WebControls.Label Label5;
+
+		/// <summary>
+		/// Control txtDescription.
+		/// </summary>
+		/// <remarks>
+		/// Campo generado automáticamente.
+		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.TextBox txtDescription;
 
 		/// <summary>
 		/// Control Label6.
